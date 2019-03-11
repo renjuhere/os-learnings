@@ -1,2 +1,2 @@
 FROM docker.io/openshift/base-centos7
-CMD bash -c "while true; do echo test; sleep 5; done"
+CMD bash -c "echo test"
