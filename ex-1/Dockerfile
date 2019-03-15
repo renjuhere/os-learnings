@@ -11,4 +11,4 @@ LABEL io.k8s.display-name="Echo" \
 	
 #CMD ["bash","-c","/run-httpd.sh" ]
 
-CMD bash -c "while true; do; echo test; sleep 5; done;"
+CMD bash -c "while true; do echo test; sleep 5; done;"
