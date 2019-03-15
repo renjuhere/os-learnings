@@ -1,0 +1,6 @@
+FROM docker.io/openshift/base-centos7
+
+RUN yum -y install skopeo source-to-image && \
+    yum -y clean all
+	
+CMD bash -c "while true; do (( i++ )); echo completed \$i hours; sleep 3600; done"
